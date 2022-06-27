@@ -9,15 +9,20 @@
     --white: #fff;
 }
 
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 body {
     font-family: 'Red Hat Display', sans-serif;
-    font-size: 16px;
+    font-size: 1.6rem;
     line-height: 1.5;
     background-color: var(--very-pale-blue);
     height: 100vh;
@@ -47,8 +52,9 @@ h1 {
     color: var(--dark-blue);
     margin: 20px;
 }
-h4 {
+h2 {
     color: var(--dark-blue);
+    font-size: inherit;
 }
 p {
     text-align: center;
